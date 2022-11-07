@@ -35,3 +35,7 @@ func (p *Person) SetHobby(hobby string) {
 func (p Person) ToString() string {
 	return fmt.Sprintf("Hallo, nama saya %s dan hobby saya adalah %s.", p.GetName(), p.GetHobby())
 }
+
+func ReturnPerson () Person{
+	return Person{}
+}
